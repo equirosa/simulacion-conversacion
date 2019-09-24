@@ -9,8 +9,8 @@ private:
 public:
     Persona(std::string nombre, std::string nacionalidad, int edad);
     Persona();
-    void saludar(Persona);
-    void devolverSaludo(std::string saludo);
+    std::string saludar(Persona);
+    std::string devolverSaludo(std::string saludo);
 };
 
 #endif // PERSONA_H
